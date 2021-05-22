@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clima</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="search-form">
+        <form id="search-form">
+          <div class="search-box">
+            <input
+              class="search"
+              id="search-box"
+              type="text"
+              autocomplete="off"
+              placeholder="Buscar ciudad..."
+            />
+          </div>
+        </form>
+      </div>
+
+      <div class="weather-card" id="card">
+        <div class="city" id="city">Lima, PE</div>
+        <div class="date" id="date">10 / 14 / 2020</div>
+        <div class="temperature">
+          <img
+            id="temp-img"
+            src="./images/temp-mid.png"
+            class="temp-img"
+            alt="actual temperatura"
+          />
+          <div class="temp" id="temp">14°C</div>
+        </div>
+        <div class="weather" id="weather">Sol</div>
+        <div class="range" id="range">12°C / 18°C</div>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Creado por
+        <a href="https://github.com/RageHardrack">Daniel Colmenares</a>
+      </p>
+
+      <p>
+        Icons made by
+        <a href="https://www.flaticon.com/authors/freepik" title="Freepik"
+          >Freepik</a
+        >
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon"
+          >www.flaticon.com</a
+        >
+      </p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
